@@ -73,6 +73,54 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-post-name" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/06/30/post-name/" class="article-date">
+  <time class="dt-published" datetime="2023-06-30T11:46:01.107Z" itemprop="datePublished">2023-06-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/06/30/post-name/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="使用-Markdown-嵌入图片"><a href="#使用-Markdown-嵌入图片" class="headerlink" title="使用 Markdown 嵌入图片"></a>使用 Markdown 嵌入图片</h2><p><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked</a> 3.1.0 引入了一个新的选项，其允许你无需使用 <code>asset_img</code> 标签插件就可以在 markdown 中嵌入图片</p>
+<p>如需启用：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">_config.ymlpost_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true</span><br><span class="line">  postAsset: true</span><br></pre></td></tr></table></figure>
+
+<p>启用后，资源图片将会被自动解析为其对应文章的路径。<br>例如： <code>image.jpg</code> 位置为 <code>/2020/01/02/foo/image.jpg</code> ，这表示它是 <code>/2020/01/02/foo/</code> 文章的一张资源图片， <code>![](image.jpg)</code> 将会被解析为 <code>&lt;img src =&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code> 。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">typora-root-url:</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2013/7/13 20:46:25</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p><img src="/image-20230630201850715.png" alt="image-20230630201850715"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/06/30/post-name/" data-id="cljijqvh70000qocc4fghe5g6" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/06/24/hello-world/" class="article-date">
@@ -153,6 +201,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2023/06/30/post-name/">Hello World</a>
+          </li>
         
           <li>
             <a href="/2023/06/24/hello-world/">Hello World</a>
