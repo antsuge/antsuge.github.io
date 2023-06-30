@@ -1,9 +1,5 @@
 ---
-​---
 title: Hello World
-date: 2013/7/13 20:46:25
-typora-root-url:post-name
-​---
 ---
 
 ## 使用 Markdown 嵌入图片
